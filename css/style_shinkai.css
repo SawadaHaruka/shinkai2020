@@ -9,7 +9,7 @@ body {
 div.bg{
     margin:0 auto;
     width: 375px;
-    height: 607px;
+    height: 597px;
 }
 div.header{
     position: absolute;
@@ -56,6 +56,6 @@ p.score {
 .content {
     margin: 0 auto;
     width: 375px;
-    height: 607px;
+    height: 597px;
     margin-top:60px;
 }

@@ -19,7 +19,7 @@ class Application{
         //キャンバスとステージを設定
         this.canvasObject = document.getElementById("myCanvas");
         this.canvasObject.width = 375;
-        this.canvasObject.height = 607;
+        this.canvasObject.height = 597;
         this.stage = new createjs.Stage(this.canvasObject);
         
         // タッチ操作をサポートしているブラウザーかチェック

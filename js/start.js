@@ -15,7 +15,7 @@ export class Start extends createjs.MovieClip {
 
         //四角い背景を作るよ。画像にしたいときは Bitmap クラスとかにするといいね。
         let bg = new createjs.Shape();
-        bg.graphics.beginFill("#6FBFFF").drawRect(0, 0, 375, 607);
+        bg.graphics.beginFill("#6FBFFF").drawRect(0, 0, 375, 597);
         this.addChild(bg);
 
         //Shadowクラス!!!!
@@ -136,7 +136,7 @@ export class Start extends createjs.MovieClip {
 
         //透明フィルター
         let bg2 = new createjs.Shape();
-        bg2.graphics.beginFill("LightCyan").drawRect(0, 0, 375, 607);
+        bg2.graphics.beginFill("LightCyan").drawRect(0, 0, 375, 597);
         bg2.alpha = 0.1;
         this.addChild(bg2);
 

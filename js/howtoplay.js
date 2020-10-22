@@ -4,7 +4,7 @@ export class Howtoplay extends createjs.MovieClip {
 
         //四角い背景を作るよ。画像にしたいときは Bitmap クラスとかにするといいね。
         let bg = new createjs.Shape();
-        bg.graphics.beginFill("#005FAF").drawRect(0, 0, 375, 607);
+        bg.graphics.beginFill("#005FAF").drawRect(0, 0, 375, 597);
         this.addChild(bg);
 
         let text = new createjs.Text("How to play", "35px sans", "LightBlue");
