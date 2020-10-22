@@ -81,6 +81,7 @@ export class Game {
      */
     setUp() {
         console.log("canvasの横幅は？", this.stage.canvas.width);
+        console.log("canvasのたて幅は？", this.stage.canvas.height);
 
         //タイトルを書き換える
         this.titleTag.textContent = "\　深海探査ゲーム";
