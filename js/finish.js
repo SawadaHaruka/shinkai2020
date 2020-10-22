@@ -12,7 +12,7 @@ export class Finish extends createjs.MovieClip {
 
         //四角い背景を作るよ。画像にしたいときは Bitmap クラスとかにするといいね。
         this.fin = new createjs.Shape();
-        this.fin.graphics.beginFill("#109fff").drawRect(0, 0, 375, 597);
+        this.fin.graphics.beginFill("#109fff").drawRect(0, 0, 375, 667);
         this.addChild(this.fin);
 
         let bubble = new Bubble();
