@@ -37,9 +37,7 @@ export class Game {
         //インスタンスの中にある変数ですよ、ということを示しています
         this.stage = stage;
 
-        //学籍番号や概要などを表示するエリア
-        this.titleTag = document.getElementById("titleTag");
-        this.nameTag = document.getElementById("nameTag");
+
         this.scoreTag = document.getElementById("scoreTag");
 
         //ここから画面の要素を初期化します
@@ -80,14 +78,6 @@ export class Game {
      *
      */
     setUp() {
-        console.log("canvasの横幅は？", this.stage.canvas.width);
-
-        //タイトルを書き換える
-        this.titleTag.textContent = "\　深海探査ゲーム";
-
-        //名前を書き換える
-        this.nameTag.textContent = "\　\　";
-
         //点数表示を初期値に書き換える
         this.scoreTag.textContent = "0pt";
 
@@ -217,13 +207,13 @@ export class Game {
 
         //時間
         this.timelavel = new createjs.Text("", "30px sans", "LightBlue");
-        this.timelavel.x = 320;
+        this.timelavel.x = 20;
         this.timelavel.y = 20;
         this.timelavel.shadow = new createjs.Shadow("White", 0, 0, 5);
         this.stage.addChild(this.timelavel);
         //時間ラスト５
         this.timelavel5 = new createjs.Text("", "38px sans", "Red");
-        this.timelavel5.x = 324;
+        this.timelavel5.x = 24;
         this.timelavel5.y = 22;
         this.stage.addChild(this.timelavel5);
 

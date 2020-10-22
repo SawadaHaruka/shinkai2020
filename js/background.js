@@ -6,7 +6,7 @@ export class Background extends createjs.MovieClip {
         //background
         this.bg = new createjs.Shape();
         this.bg.graphics.beginFill("#000000");
-        this.bg.graphics.drawRect(0, 0, 375, 607);
+        this.bg.graphics.drawRect(0, 0, 375, 667);
         this.addChild(this.bg);
 
         //背景の画像をロードして画面に出す。
@@ -37,7 +37,7 @@ export class Background extends createjs.MovieClip {
 
         //透明フィルター
         let bg2 = new createjs.Shape();
-        bg2.graphics.beginFill("#000000").drawRect(0, 0, 375, 607);
+        bg2.graphics.beginFill("#000000").drawRect(0, 0, 375, 667);
         bg2.alpha = 0.5;
         this.addChild(bg2);
 
